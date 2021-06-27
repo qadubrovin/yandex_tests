@@ -16,9 +16,8 @@ public class GeneratedTests extends TestBase {
     @Description("Soon to be implemented by you (or QA.GURU engineers)")
     @DisplayName("Переход на вкладку погода")
     void generatedTest() {
-        step("Открыть https://yandex.ru/", () -> {
-            step("// todo: just add selenium action");
-        });
+        step("Open url 'https://yandex.ru/'", () ->
+                open("https://yandex.ru/"));
 
         step("Перейти на раздел Погода", () -> {
             step("// todo: just add selenium action");
