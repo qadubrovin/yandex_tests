@@ -1,6 +1,6 @@
-package cloud.autotests.helpers;
+package ru.yandex.helpers;
 
-import cloud.autotests.config.Project;
+import ru.yandex.config.Project;
 import com.codeborne.selenide.Selenide;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -10,7 +10,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 
-import static cloud.autotests.helpers.Logging.LOGGER;
+import static ru.yandex.helpers.Logging.LOGGER;
 import static com.codeborne.selenide.WebDriverRunner.getWebDriver;
 import static org.openqa.selenium.logging.LogType.BROWSER;
 

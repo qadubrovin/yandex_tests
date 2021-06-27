@@ -1,4 +1,4 @@
-package cloud.autotests.helpers;
+package ru.yandex.helpers;
 
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.net.URL;
 
-import static cloud.autotests.helpers.Logging.LOGGER;
 import static com.codeborne.selenide.Selenide.sleep;
 
 public class AllureAttachments {
@@ -45,7 +44,7 @@ public class AllureAttachments {
                 } catch (FileNotFoundException e) {
                     sleep(1000);
                 } catch (IOException e) {
-                    LOGGER.warn("[ALLURE VIDEO ATTACHMENT ERROR] Cant attach allure video, {}", videoUrl);
+                    Logging.LOGGER.warn("[ALLURE VIDEO ATTACHMENT ERROR] Cant attach allure video, {}", videoUrl);
                     e.printStackTrace();
                 }
             }

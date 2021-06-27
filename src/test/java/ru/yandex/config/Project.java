@@ -1,4 +1,4 @@
-package cloud.autotests.config;
+package ru.yandex.config;
 
 import org.aeonbits.owner.ConfigFactory;
 
